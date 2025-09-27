@@ -1,0 +1,29 @@
+
+Sender: Unischeduler System <2008114581@lnode252>
+Subject: Job 5286351: <./lstm.sh> Exited
+
+Job <./lstm.sh> was submitted from host <lnode252> by user <2008114581>.
+Job was executed on host(s) <1*gnode196>, in queue <gpu>, as user <2008114581>.
+</storage/public/home/2008114581> was used as the home directory.
+</storage/public/home/2008114581/zz/deeplab> was used as the working directory.
+Started at 2024-07-15 09:28:19
+Results reported at 2024-07-15 09:28:23
+
+Your job looked like:
+
+------------------------------------------------------------
+# User input
+./lstm.sh
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time   :            0.01 sec.
+    Max Memory :                11 MB
+    Max Processes  :               1
+
+
+The output (if any) follows:
+

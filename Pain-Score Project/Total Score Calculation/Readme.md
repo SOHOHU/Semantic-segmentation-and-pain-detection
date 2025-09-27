@@ -1,0 +1,2 @@
+### Storage of Scoring Data and Dataset Partition  
+Stored here are the total pain scores recorded for each dairy cow facial image and the average scores of each facial part. A commonly used 5-point threshold is applied to detect whether the dairy cow is in pain. For a systematic evaluation of the detection results, we divided the dataset into training and test sets in a 7:3 ratio, which are also stored in this folder. The specific experimental ideas can be referred to in our paper.

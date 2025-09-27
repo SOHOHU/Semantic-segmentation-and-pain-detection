@@ -1,0 +1,68 @@
+
+Sender: Unischeduler System <2008114581@lnode252>
+Subject: Job 5286343: <./train.sh> Exited
+
+Job <./train.sh> was submitted from host <lnode252> by user <2008114581>.
+Job was executed on host(s) <1*gnode196>, in queue <gpu>, as user <2008114581>.
+</storage/public/home/2008114581> was used as the home directory.
+</storage/public/home/2008114581/zz/deeplab> was used as the working directory.
+Started at 2024-07-15 09:23:07
+Results reported at 2024-07-15 09:27:01
+
+Your job looked like:
+
+------------------------------------------------------------
+# User input
+./train.sh
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time   :           86.92 sec.
+    Max Memory :             30806 MB
+    Max Processes  :               7
+
+
+The output (if any) follows:
+
+Load weights model_data/deeplab_mobilenetv2.pth.
+
+Successful Load Key: ['backbone.features.0.0.weight', 'backbone.features.0.1.weight', 'backbone.features.0.1.bias', 'backbone.features.0.1.running_mean', 'backbone.features.0.1.running_var', 'backbone.features.0.1.num_batches_tracked', 'backbone.features.1.conv.0.weight', 'backbone.features.1.conv.1.weight', 'backbone.features.1.conv.1.bias', 'backbone.features.1.conv.1.running_mean', 'backbone.features.1.conv.1.running_var', 'backbone.features.1.conv.1.num_batches_tracked', 'backbone.features.1.conv.3.weight', 'bac ……
+Successful Load Key Num: 369
+
+Fail To Load Key: ['cls_conv.weight', 'cls_conv.bias'] ……
+Fail To Load Key num: 2
+
+[1;33;44m温馨提示，head部分没有载入是正常现象，Backbone部分没有载入是错误的。[0m
+Configurations:
+----------------------------------------------------------------------
+|                     keys |                                   values|
+----------------------------------------------------------------------
+|              num_classes |                                        8|
+|                 backbone |                                mobilenet|
+|               model_path |       model_data/deeplab_mobilenetv2.pth|
+|              input_shape |                               [512, 512]|
+|               Init_Epoch |                                        0|
+|             Freeze_Epoch |                                      250|
+|           UnFreeze_Epoch |                                      500|
+|        Freeze_batch_size |                                      128|
+|      Unfreeze_batch_size |                                       64|
+|             Freeze_Train |                                     True|
+|                  Init_lr |                                    0.007|
+|                   Min_lr |                    7.000000000000001e-05|
+|           optimizer_type |                                      sgd|
+|                 momentum |                                      0.9|
+|            lr_decay_type |                                      cos|
+|              save_period |                                       25|
+|                 save_dir |                                     logs|
+|              num_workers |                                        4|
+|                num_train |                                      957|
+|                  num_val |                                      169|
+----------------------------------------------------------------------
+
+[1;33;44m[Warning] 使用sgd优化器时，建议将训练总步长设置到15000以上。[0m
+[1;33;44m[Warning] 本次运行的总训练数据量为957，Unfreeze_batch_size为64，共训练500个Epoch，计算出总训练步长为7000。[0m
+[1;33;44m[Warning] 由于总训练步长为7000，小于建议总步长15000，建议设置总世代为1072。[0m
+Start Train

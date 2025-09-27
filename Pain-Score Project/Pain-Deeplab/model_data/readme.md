@@ -1,0 +1,1 @@
+此处放的是DeeplabV3+的预训练模型，一般选择MobilenetV2或者Xception，此处放了MobileNetV2作为例子

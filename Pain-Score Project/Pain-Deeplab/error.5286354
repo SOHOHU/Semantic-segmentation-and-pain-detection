@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/storage/public/home/2008114581/zz/deeplab/lstm.py", line 139, in <module>
+    for sequences, labels in train_loader:
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 364, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 364, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/storage/public/home/2008114581/zz/deeplab/lstm.py", line 30, in __getitem__
+    sequence = [self.transform(img) for img in sequence]
+  File "/storage/public/home/2008114581/zz/deeplab/lstm.py", line 30, in <listcomp>
+    sequence = [self.transform(img) for img in sequence]
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/storage/public/home/2008114581/.local/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 174, in to_tensor
+    return img.to(dtype=default_float_dtype).div(255)
+KeyboardInterrupt

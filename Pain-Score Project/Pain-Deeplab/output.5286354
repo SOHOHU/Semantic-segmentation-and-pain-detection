@@ -1,0 +1,58 @@
+
+Sender: Unischeduler System <2008114581@lnode252>
+Subject: Job 5286354: <./lstm.sh> Exited
+
+Job <./lstm.sh> was submitted from host <lnode252> by user <2008114581>.
+Job was executed on host(s) <1*gnode196>, in queue <gpu>, as user <2008114581>.
+</storage/public/home/2008114581> was used as the home directory.
+</storage/public/home/2008114581/zz/deeplab> was used as the working directory.
+Started at 2024-07-15 09:29:31
+Results reported at 2024-07-15 16:01:59
+
+Your job looked like:
+
+------------------------------------------------------------
+# User input
+./lstm.sh
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :        345617.5 sec.
+    Max Memory :              1507 MB
+    Max Processes  :               3
+
+
+The output (if any) follows:
+
+There are 2 unique classes in the dataset
+Epoch [1/50], Train Loss: 0.6190, Train Acc: 69.19%, Test Loss: 0.5646, Test Acc: 69.23%
+Epoch [2/50], Train Loss: 0.6092, Train Acc: 69.96%, Test Loss: 0.5658, Test Acc: 69.23%
+Epoch [3/50], Train Loss: 0.6026, Train Acc: 69.96%, Test Loss: 0.5728, Test Acc: 69.23%
+Epoch [4/50], Train Loss: 0.5870, Train Acc: 69.96%, Test Loss: 0.6023, Test Acc: 69.23%
+Epoch [5/50], Train Loss: 0.5452, Train Acc: 71.12%, Test Loss: 0.7107, Test Acc: 56.15%
+Epoch [6/50], Train Loss: 0.4808, Train Acc: 78.10%, Test Loss: 0.7856, Test Acc: 70.77%
+Epoch [7/50], Train Loss: 0.3944, Train Acc: 81.98%, Test Loss: 0.6971, Test Acc: 65.38%
+Epoch [8/50], Train Loss: 0.2647, Train Acc: 91.67%, Test Loss: 1.0326, Test Acc: 50.00%
+Epoch [9/50], Train Loss: 0.1378, Train Acc: 96.32%, Test Loss: 1.2761, Test Acc: 50.00%
+Epoch [10/50], Train Loss: 0.0658, Train Acc: 98.06%, Test Loss: 1.2273, Test Acc: 67.69%
+Epoch [11/50], Train Loss: 0.0475, Train Acc: 98.45%, Test Loss: 1.4434, Test Acc: 66.92%
+Epoch [12/50], Train Loss: 0.0882, Train Acc: 97.87%, Test Loss: 1.3871, Test Acc: 62.31%
+Epoch [13/50], Train Loss: 0.0610, Train Acc: 98.26%, Test Loss: 1.2660, Test Acc: 63.08%
+Epoch [14/50], Train Loss: 0.0376, Train Acc: 99.03%, Test Loss: 1.4331, Test Acc: 65.38%
+Epoch [15/50], Train Loss: 0.0229, Train Acc: 99.03%, Test Loss: 1.8961, Test Acc: 50.77%
+Epoch [16/50], Train Loss: 0.0116, Train Acc: 99.81%, Test Loss: 2.0143, Test Acc: 53.85%
+Epoch [17/50], Train Loss: 0.0028, Train Acc: 100.00%, Test Loss: 2.1275, Test Acc: 51.54%
+Epoch [18/50], Train Loss: 0.0013, Train Acc: 100.00%, Test Loss: 2.1812, Test Acc: 54.62%
+Epoch [19/50], Train Loss: 0.0006, Train Acc: 100.00%, Test Loss: 2.2369, Test Acc: 54.62%
+Epoch [20/50], Train Loss: 0.0005, Train Acc: 100.00%, Test Loss: 2.2873, Test Acc: 55.38%
+Epoch [21/50], Train Loss: 0.0004, Train Acc: 100.00%, Test Loss: 2.3304, Test Acc: 55.38%
+Epoch [22/50], Train Loss: 0.0003, Train Acc: 100.00%, Test Loss: 2.3650, Test Acc: 55.38%
+Epoch [23/50], Train Loss: 0.0003, Train Acc: 100.00%, Test Loss: 2.3935, Test Acc: 56.15%
+Epoch [24/50], Train Loss: 0.0003, Train Acc: 100.00%, Test Loss: 2.4181, Test Acc: 56.15%
+Epoch [25/50], Train Loss: 0.0002, Train Acc: 100.00%, Test Loss: 2.4396, Test Acc: 56.15%
+Epoch [26/50], Train Loss: 0.0002, Train Acc: 100.00%, Test Loss: 2.4597, Test Acc: 56.15%
+Epoch [27/50], Train Loss: 0.0002, Train Acc: 100.00%, Test Loss: 2.4773, Test Acc: 56.15%
+Epoch [28/50], Train Loss: 0.0002, Train Acc: 100.00%, Test Loss: 2.4946, Test Acc: 56.92%
