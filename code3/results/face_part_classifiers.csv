@@ -1,0 +1,49 @@
+part,classifier,F1,Recall,G-Mean,Precision
+ear,VGG-16,0.5801,0.52,0.5604,0.6511
+ear,AlexNet,0.7567,0.7391,0.7483,0.7762
+ear,GoogLeNet,0.8451,0.9169,0.8482,0.7843
+ear,ResNet-18,0.8059,0.8611,0.8068,0.757
+ear,DenseNet,0.9585,0.9589,0.9597,0.9605
+ear,EfficientNetV2,0.9139,0.8765,0.911,0.916
+ear,Swin Transformer,0.8899,0.9247,0.9294,0.927
+ear,MobileViT,0.9655,0.9658,0.966,0.9662
+mouth,VGG-16,0.3952,0.5541,0.4119,0.307
+mouth,AlexNet,0.7762,0.786,0.776,0.7661
+mouth,GoogLeNet,0.463,0.3959,0.47,0.5591
+mouth,ResNet-18,0.758,0.81,0.7602,0.7131
+mouth,DenseNet,0.8913,0.8902,0.8931,0.896
+mouth,EfficientNetV2,0.8518,0.8485,0.8573,0.8661
+mouth,Swin Transformer,0.9019,0.9015,0.9029,0.9042
+mouth,MobileViT,0.8975,0.8977,0.8991,0.9005
+eyes,VGG-16,0.4772,0.3867,0.6221,0.491
+eyes,AlexNet,0.8462,0.9711,0.8533,0.7501
+eyes,GoogLeNet,0.5299,0.8753,0.5768,0.3802
+eyes,ResNet-18,0.5544,0.8709,0.5874,0.3962
+eyes,DenseNet,0.932,0.931,0.9329,0.9348
+eyes,EfficientNetV2,0.8507,0.8517,0.852,0.8523
+eyes,Swin Transformer,0.935,0.9345,0.9354,0.9363
+eyes,MobileViT,0.8916,0.8897,0.8933,0.8971
+nose,VGG-16,0.67,0.77,0.6762,0.5931
+nose,AlexNet,0.6669,0.556,0.68,0.8333
+nose,GoogLeNet,0.9371,0.882,0.9391,1.0
+nose,ResNet-18,0.3822,0.708,0.4301,0.2611
+nose,DenseNet,0.9624,0.9622,0.9628,0.9634
+nose,EfficientNetV2,0.9278,0.9244,0.9312,0.9381
+nose,Swin Transformer,0.9722,0.9725,0.9725,0.9725
+nose,MobileViT,0.8735,0.8902,0.8943,0.8852
+muscles_above_eye,VGG-16,0.5971,0.6461,0.676,0.7059
+muscles_above_eye,AlexNet,0.627,0.4954,0.6501,0.8522
+muscles_above_eye,GoogLeNet,0.6542,0.6202,0.6389,0.6811
+muscles_above_eye,ResNet-18,0.6541,0.521,0.6761,0.877
+muscles_above_eye,DenseNet,0.83,0.8386,0.8385,0.8385
+muscles_above_eye,EfficientNetV2,0.799,0.8,0.7996,0.7991
+muscles_above_eye,Swin Transformer,0.856,0.8596,0.8568,0.854
+muscles_above_eye,MobileViT,0.8536,0.8561,0.8542,0.8522
+face,VGG-16,0.1632,0.3303,0.1891,0.1091
+face,AlexNet,0.5221,0.3751,0.5672,0.8573
+face,GoogLeNet,0.7451,0.7002,0.7461,0.7952
+face,ResNet-18,0.8522,0.7674,0.8573,0.9583
+face,DenseNet,0.9896,0.9897,0.9899,0.9896
+face,EfficientNetV2,0.9758,0.9759,0.9759,0.9759
+face,Swin Transformer,0.9897,0.9898,0.9897,0.9897
+face,MobileViT,0.9827,0.9828,0.9828,0.9828

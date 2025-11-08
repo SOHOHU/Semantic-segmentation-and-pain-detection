@@ -1,0 +1,93 @@
+{
+  "confusion_matrix_analysis": {
+    "note": "基于 face 部件的混淆矩阵作为Pain-Score代表",
+    "matrix": [
+      [
+        155,
+        0,
+        28
+      ],
+      [
+        13,
+        0,
+        111
+      ],
+      [
+        18,
+        0,
+        133
+      ]
+    ],
+    "per_class_metrics": {
+      "class_0": {
+        "recall": 0.8469945355191257,
+        "precision": 0.8333333333333334
+      },
+      "class_1": {
+        "recall": 0.0,
+        "precision": 0.0
+      },
+      "class_2": {
+        "recall": 0.8807947019867549,
+        "precision": 0.4889705882352941
+      }
+    }
+  },
+  "dilation_rate_analysis": {
+    "input_size": 512,
+    "feature_map_size": 32,
+    "rates": [
+      1,
+      6,
+      12,
+      18
+    ],
+    "effective_receptive_fields": {
+      "rate_1": 3,
+      "rate_6": 13,
+      "rate_12": 25,
+      "rate_18": 37
+    },
+    "part_sizes": {
+      "Muscles above eye": [
+        25,
+        35,
+        890
+      ],
+      "Eyes": [
+        40,
+        42,
+        1680
+      ],
+      "Nose": [
+        45,
+        47,
+        2120
+      ],
+      "Mouth": [
+        42,
+        46,
+        1920
+      ],
+      "Ear": [
+        50,
+        70,
+        3450
+      ],
+      "Face": [
+        200,
+        230,
+        45230
+      ]
+    }
+  },
+  "eca_weight_analysis": {
+    "note": "模拟分析，实际需要从模型提取",
+    "num_channels": 256,
+    "weight_distribution": {
+      "high_weight": "35 channels (>0.8)",
+      "medium_weight": "135 channels (0.4-0.8)",
+      "low_weight": "86 channels (<0.4)"
+    }
+  }
+}

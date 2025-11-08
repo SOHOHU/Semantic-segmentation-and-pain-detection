@@ -1,0 +1,20 @@
+{
+  "Train": {
+    "F1": 95.23,
+    "Recall": 99.08,
+    "Precision": 97.88,
+    "G-Mean": 98.48
+  },
+  "Test": {
+    "F1": 88.17,
+    "Recall": 89.97,
+    "Precision": 93.79,
+    "G-Mean": 91.86
+  },
+  "Total": {
+    "F1": 91.7,
+    "Recall": 95.18,
+    "Precision": 94.87,
+    "G-Mean": 95.02
+  }
+}
