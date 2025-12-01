@@ -1,9 +1,0 @@
-combination,use_eca,use_fpn,use_ssh,mIOU,mPA,ACC
-baseline,False,False,False,0.5554,0.6418,0.976
-eca,True,False,False,0.6045,0.7434,0.9771
-fpn,False,True,False,0.6079,0.7576,0.9721
-ssh,False,False,True,0.6162,0.7483,0.9731
-eca_fpn,True,True,False,0.6394,0.7721,0.9723
-eca_ssh,True,False,True,0.6407,0.7673,0.9739
-fpn_ssh,False,True,True,0.6394,0.7721,0.9723
-pain_deeplab,True,True,True,0.6684,0.7797,0.9793
