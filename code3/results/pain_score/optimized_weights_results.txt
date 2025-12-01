@@ -1,0 +1,13 @@
+Optimized Weights (Threshold 5):
+ear: 2.5000
+eyes: 2.5000
+face: 2.5000
+mouth: 2.5000
+muscles_above_eye: 2.5000
+nose: 2.5000
+
+Validation Metrics:
+F1: 0.6734
+Recall: 0.5089
+Precision: 0.9953
+G-Mean: 0.7117

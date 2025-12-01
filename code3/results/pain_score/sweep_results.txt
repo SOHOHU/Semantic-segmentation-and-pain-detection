@@ -1,0 +1,13 @@
+Threshold 0: F1=0.9928, Rec=1.0000, Prec=0.9857
+Threshold 1: F1=0.9840, Rec=0.9685, Prec=1.0000
+Threshold 2: F1=0.8085, Rec=0.6785, Prec=1.0000
+Threshold 3: F1=0.5461, Rec=0.3756, Prec=1.0000
+Threshold 4: F1=0.5444, Rec=0.3740, Prec=1.0000
+Threshold 5: F1=0.5418, Rec=0.3716, Prec=1.0000
+Threshold 6: F1=0.5314, Rec=0.3619, Prec=1.0000
+Threshold 7: F1=0.4772, Rec=0.3134, Prec=1.0000
+Threshold 8: F1=0.3891, Rec=0.2415, Prec=1.0000
+Threshold 9: F1=0.1834, Rec=0.1010, Prec=1.0000
+Threshold 10: F1=0.0580, Rec=0.0299, Prec=1.0000
+Threshold 11: F1=0.0000, Rec=0.0000, Prec=0.0000
+Threshold 12: F1=0.0000, Rec=0.0000, Prec=0.0000

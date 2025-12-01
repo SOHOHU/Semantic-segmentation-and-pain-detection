@@ -1,0 +1,13 @@
+﻿model,part,best_val_acc,best_epoch,precision,recall,f1,train_samples,val_samples,num_classes,weight_path
+swin_transformer,face,0.62882096069869,10,0.49418025944002053,0.62882096069869,0.5430020090408095,1000,458,3,swin_mobilevit_weights\swin_transformer\face_best.pth
+mobilevit,face,0.5152838427947598,4,0.366244076305629,0.5152838427947598,0.4247541258502185,1000,458,3,swin_mobilevit_weights\mobilevit\face_best.pth
+swin_transformer,mouth,0.5024390243902439,6,0.5420853473049339,0.5024390243902439,0.4897579576751286,916,410,3,swin_mobilevit_weights\swin_transformer\mouth_best.pth
+mobilevit,mouth,0.5365853658536586,10,0.5510404332085039,0.5365853658536586,0.5347368978094303,916,410,3,swin_mobilevit_weights\mobilevit\mouth_best.pth
+swin_transformer,nose,0.7954070981210856,11,0.8211462051316587,0.7954070981210856,0.7338135828650488,1018,479,3,swin_mobilevit_weights\swin_transformer\nose_best.pth
+mobilevit,nose,0.7661795407098121,1,0.708078888797224,0.7661795407098121,0.720906601109988,1018,479,3,swin_mobilevit_weights\mobilevit\nose_best.pth
+swin_transformer,eyes,0.42139737991266374,3,0.5747612235678792,0.42139737991266374,0.4654346771301394,1000,458,3,swin_mobilevit_weights\swin_transformer\eyes_best.pth
+mobilevit,eyes,0.5436681222707423,6,0.614224695622843,0.5436681222707423,0.5165767261495847,1000,458,3,swin_mobilevit_weights\mobilevit\eyes_best.pth
+swin_transformer,ear,0.6991341991341992,10,0.6605255174842805,0.6991341991341992,0.6711632201911183,999,462,2,swin_mobilevit_weights\swin_transformer\ear_best.pth
+mobilevit,ear,0.6363636363636364,8,0.6796535064831163,0.6363636363636364,0.6517084562198956,999,462,2,swin_mobilevit_weights\mobilevit\ear_best.pth
+swin_transformer,muscles_above_eye,0.7392857142857143,1,0.7970160135032015,0.7392857142857143,0.7468588646981965,868,560,3,swin_mobilevit_weights\swin_transformer\muscles_above_eye_best.pth
+mobilevit,muscles_above_eye,0.7321428571428571,10,0.7607496797420267,0.7321428571428571,0.7274081405760295,868,560,3,swin_mobilevit_weights\mobilevit\muscles_above_eye_best.pth

@@ -1,0 +1,16 @@
+Optimal Threshold (including trivial all-positive): 0
+Best Metrics: F1=0.9928, Recall=1.0000, Precision=0.9857, G-Mean=0.9928
+Confusion Matrix: TP=1238, FP=18, FN=0, TN=0
+
+Paper Threshold 5 (no bias):
+Metrics: F1=0.5418, Recall=0.3716, Precision=1.0000, G-Mean=0.6096
+Confusion Matrix: TP=460, FP=0, FN=778, TN=18
+
+Paper Threshold 5 with Bias +4:
+Metrics: F1=0.9840, Recall=0.9685, Precision=1.0000, G-Mean=0.9841
+Confusion Matrix: TP=1199, FP=0, FN=39, TN=18
+
+Combined Probabilities Method:
+Metrics: F1=0.7761, Recall=0.6357, Precision=0.9962, G-Mean=0.7958
+
+Validation Set: 1256 samples. Positive=1238, Negative=18

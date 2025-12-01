@@ -1,0 +1,25 @@
+{
+  "parts_analysis": {
+    "face": {
+      "swin_transformer": {
+        "confusion_matrix": [
+          [
+            155,
+            0,
+            28
+          ],
+          [
+            13,
+            0,
+            111
+          ],
+          [
+            18,
+            0,
+            133
+          ]
+        ],
+        "class_metrics": [
+          {
+            "class": 0,
+            "samples": 
